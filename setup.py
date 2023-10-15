@@ -2,10 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name="bsky-bridge",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python interface for interacting with the BlueSky social network's API.",
     long_description=open("README.md", "r").read(),
     long_description_content_type="text/markdown",
+    keywords='bluesky, api, python, bridge, social network, bluesky api, social network api, bluesky python',
     author="Axel Merlo",
     author_email="contact@axelm.fr",
     url="https://github.com/4xe1/bsky-bridge",

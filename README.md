@@ -1,6 +1,6 @@
-  # bsky-bridge Library
+  # bsky-bridge: A Python Library for the BlueSky API
 
-  `bsky-bridge` is a Python library providing a streamlined interface to interact with the BlueSky social network via its API.
+  `bsky-bridge` is a Python library designed to bridge the interaction between Python applications and the BlueSky Social Network via its API.
 
   ## Table of Contents
 
@@ -15,8 +15,8 @@
 
   ## Features
 
-  - Easy authentication with BlueSky.
-  - Functions to post text and images to BlueSky.
+  - Easy authentication with the BlueSky API.
+  - Functions to post text and images to BlueSky via the API.
 
   ## Installation
 
@@ -28,7 +28,7 @@
 
   ### Creating a Session
 
-  Start by establishing a session with your BlueSky handle and password:
+  Start by establishing a session with your BlueSky handle and **App passwords**:
 
   ```python
   from bsky_bridge import BskySession
